@@ -4,9 +4,21 @@
   </head>
 
   <body>
-    <button onclick="testSpeed()">Go!</button>
+    <div>
+      <button onclick="testUpload()">Large file upload</button>
 
-    <div>Average: <span id="average-speed"></span></div>
-    <div>Current: <span id="current-speed"></span></div>
+      <div>
+        Progress: <span id="progressPercent">NA</span>
+      </div>
+    </div>
+
+    <hr />
+
+    <div>
+      <button onclick="testSpeed()">Speed test</button>
+
+      <div>Average: <span id="average-speed"></span></div>
+      <div>Current: <span id="current-speed"></span></div>
+    </div>
   </body>
 </html>
